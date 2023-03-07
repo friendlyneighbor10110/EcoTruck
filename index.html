@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./libs/gsap.min.js" defer></script>
+	<script src="./libs/ScrollTrigger.min.js" defer></script>
+	<script src="./libs/ScrollSmoother.min.js" defer></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>EcoTruck Logistics</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="container">
+                    <a href="./index.html" class="logo">
+                        <img src="/icons/Onwhite.svg" alt="" width="350px" class="logo__icon">
+                    </a>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="./index.html" class="nav__link">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="./site-templates/about.html" class="nav__link">About</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="./site-templates/services.html" class="nav__link">Services</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="./site-templates/contact.html" class="nav__link">Grow with us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="burger">
+                    </div>
+                </div>
+            </header>
+            <div class="nav-drop">
+                <ul class="nav-drop__list">
+                    <li class="nav-drop__item">
+                        <a href="./index.html" class="nav-drop__link">Home</a>
+                    </li>
+                    <li class="nav-drop__item">
+                        <a href="./site-templates/about.html" class="nav-drop__link">About</a>
+                    </li>
+                    <li class="nav-drop__item">
+                        <a href="./site-templates/services.html" class="nav-drop__link">Services</a>
+                    </li>
+                    <li class="nav-drop__item">
+                        <a href="./site-templates/contact.html" class="nav-drop__link">Grow with us</a>
+                    </li>
+                </ul>
+            </div>
+            <section class="hero">
+                <div class="video-bg">
+                    <div class="effects"></div>
+                    <video src="./video/Pexels Videos 2435376.mp4" type="video/mp4" autoplay muted loop class="video  video--active"></video>
+
+                    <div class="hero__title">
+                        <h1 data-speed="0.85">Our mission</h1>
+                        <h1 data-speed="0.8">To make</h1>
+                        <h1 data-speed="0.75">You grow</h1>
+                    </div>
+                </div>
+
+            </section>
+            <section class="about" >
+                <div class="container">
+                    <h2 class="about__title" data-speed=".9"><span>About us</span></h2>
+                    <div class="about__wrapper">
+                        <div class="about__item">
+                            <div class="about__descr about__descr--left">
+                                <p>We understand that the transportation and logistics industry can be complex and challenging, which is why we work hard to make the process as simple and stress-free as possible for our customers. Whether you need to ship a single item or a full truckload, we have the expertise and resources to get the job done right.</p>
+                                <p>Our team of transportation professionals has years of experience in the industry, and we are committed to staying up-to-date on the latest trends, regulations, and technologies. We use our knowledge and expertise to provide our customers with the most efficient and cost-effective transportation solutions possible.</p>
+                            </div>
+                            <div class="about__img about__img--right" >
+                                <div class="filter"></div>
+                                <img src="./images/about/about-21.jpg" alt="">
+                            </div>
+
+                        </div>
+                        <div class="about__item about__item--reversed">
+                            <div class="about__img about__img--left">
+                                <div class="filter"></div>
+                                <img src="./images/about/about-10.jpg" alt="">
+                            </div>
+                            <div class="about__descr about__descr--right" >
+                                <p>With a focus on innovation and technology, we are constantly looking for ways to improve our services and exceed our customers' expectations. From our fleet of well-maintained trucks to our state-of-the-art logistics software, we are committed to staying at the forefront of the industry.
+                                </p>
+                                <p>At EcoTruck, we believe that our employees are our greatest asset. We are committed to creating a positive work environment that fosters teamwork, respect, and collaboration. We invest in our employees' training and development, and we empower them to take ownership of their roles and make a difference in the success of our company.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <section class="services services-background">
+                <div class="container container-small">
+                    <div class="services__content">
+                        <h2 class="services__title">
+                            <span>Services</span>
+                        </h2>
+                        <a href="./site-templates/services.html" class="services__btn">Read more</a>
+
+                    </div>
+                </div>
+                <div class="services-filter"></div>
+            </section>
+
+            <section class="reviews">
+                <div class="container">
+                    <div class="reviews__title">
+                        <span>Reviews</span>
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews-slider">
+                            <div class="reviews-slider__item">
+                                <ul class="reviews-slider__star">
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                </ul>
+                                <div class="reviews-slider__quote">
+                                    If you're looking for a carrier that truly understands the importance of customer service, look no further than EcoTruck. Their team is always available to answer questions, provide updates on your shipments, and they consistently go the extra mile to make sure everything runs smoothly.                             </div>
+                                <div class="reviews-slider__user">
+                                    <div class="text-right">
+                                        Mike
+                                    </div>
+                                    <div class="text-right">
+                                        The broker from PLS
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews-slider__item">
+                                <ul class="reviews-slider__star">
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                </ul>
+                                <div class="reviews-slider__quote">
+                                    Working with EcoTruck has been a game-changer for my business. They make it easy to move shipments of all sizes, and their dedication to customer service sets them apart from the competition. I trust them completely to get the job done right.
+                                </div>
+                                <div class="reviews-slider__user">
+                                    <div class="text-right">
+                                        John
+                                    </div>
+                                    <div class="text-right">
+                                        The broker from TQL
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews-slider__item">
+                                <ul class="reviews-slider__star">
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                </ul>
+                                <div class="reviews-slider__quote">
+                                    I've been driving for EcoTruck for several years now, and I can honestly say that they're a carrier that truly cares about their drivers. They have great benefits, competitive pay, and a supportive team that makes it easy to succeed in this industry.                                </div>
+                                <div class="reviews-slider__user">
+                                    <div class="text-right">
+                                        Valery Prassolov
+                                    </div>
+                                    <div class="text-right">
+                                        The driver
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews-slider__item">
+                                <ul class="reviews-slider__star">
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                </ul>
+                                <div class="reviews-slider__quote">
+                                    I've had the pleasure of working with EcoTruck for a few months now, and I'm impressed by their professionalism and attention to detail. They make it easy to plan my routes and keep me informed about any changes or updates along the way. It's a carrier I can rely on to make my job easier.</div>
+                                <div class="reviews-slider__user">
+                                    <div class="text-right">
+                                        Fenel Cadet
+                                    </div>
+                                    <div class="text-right">
+                                        The driver
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews-slider__item">
+                                <ul class="reviews-slider__star">
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                    <li class="reviews-slider__icon"></li>
+                                </ul>
+                                <div class="reviews-slider__quote">
+                                    I appreciate that EcoTruck treats me like a partner rather than an employee. They value my input and make sure I have the flexibility to run my business the way I see fit. It's a great relationship that I don't find with a lot of other carriers.</div>
+                                <div class="reviews-slider__user">
+                                    <div class="text-right">
+                                        George Hill
+                                    </div>
+                                    <div class="text-right">
+                                        The owner operator
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews-slider__arrows">
+                                <button class="arrow arrow-left"></button>
+                                <button class="arrow arrow-right"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__wrapper">
+                        <div class="footer__item">
+                            <ul class="nav-drop__list">
+                                <li class="nav-drop__item">
+                                    <a href="./index.html" class="nav-drop__link">Home</a>
+                                </li>
+                                <li class="nav-drop__item">
+                                    <a href="./site-templates/about.html" class="nav-drop__link">About</a>
+                                </li>
+                                <li class="nav-drop__item">
+                                    <a href="./site-templates/services.html" class="nav-drop__link">Services</a>
+                                </li>
+                                <li class="nav-drop__item">
+                                    <a href="./site-templates/contact.html" class="nav-drop__link">Grow with us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <div class="contact">
+                                <h3 class="contact__title">Email: </h3>
+                                <a href="mailto:user@lssolutions.com" class="contact__link">user@lssolutions.com</a>
+                            </div>
+                        </div>
+                        <div class="footer__item">
+                            <div class="contact">
+                                <h3 class="contact__title">
+                                    Phone:
+                                </h3>
+                                <a href="tel:(303) 532-5955" class="contact__link">(303) 532-5955</a>
+                            </div>
+
+                        </div>
+                        <div class="footer__item">
+                            <div class="address">
+                                <h3 class="address__title">London Office: </h3>
+                                <div class="address__descr">1400 S Wolf Rd
+                                    Wheeling IL 60090
+                                    Building 200 Suite 209 </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footer-under">
+                        <span class="copy">
+                            © 2023 logistic Service Solutions LLP
+                        </span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="./js/scroll.js" defer></script>
+    <script src="./js/drop-menu.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>
